@@ -1,0 +1,10 @@
+<credentialsFromRequestHeaderAuthentication>
+  <id>2133033c:1519be27a06:-7fff</id>
+  <name>apachesession</name>
+  <className>org.geoserver.security.filter.GeoServerCredentialsFromRequestHeaderFilter</className>
+  <userNameHeaderName>X-Credentials</userNameHeaderName>
+  <passwordHeaderName>X-Credentials</passwordHeaderName>
+  <userNameRegex>private-user=([^&amp;]*)</userNameRegex>
+  <passwordRegex>private-pw=([^&amp;]*)</passwordRegex>
+  <parseAsUriComponents>true</parseAsUriComponents>
+</credentialsFromRequestHeaderAuthentication>
